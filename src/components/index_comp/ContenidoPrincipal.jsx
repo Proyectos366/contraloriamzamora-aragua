@@ -7,7 +7,7 @@ export function ContenidoPrincipal({ imagen1, imagen2, imagen3, open }) {
   
   return (
     <>
-      <section className="flex flex-col sm:flex-row sm:gap-10">
+      <section className="flex flex-col sm:flex-row gap-10">
         <div className="w-[100%] sm:w-[60%] space-y-4 flex flex-col border-b border-[#999696] pb-1 rounded-b-md">
           <Titulos
             className={`text-3xl text-justify`}
